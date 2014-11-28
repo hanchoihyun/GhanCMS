@@ -26,7 +26,7 @@ class AdminiBaseController extends Controller{
             'member'=>array(
                 'subject' => '회원관리',
                 'submenu' => array(
-                    array('title'=>'회원목록','url'=>  createUrl('member/admin/index')),
+                    array('title'=>'회원목록','url'=>  createUrl('admini/member/index')),
                     array('title'=>'포인트설정','url'=>''),
                     array('title'=>'메일설정','url'=>''),
                     array('title'=>'가입설정','url'=>''),
