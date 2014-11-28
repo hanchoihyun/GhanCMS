@@ -12,10 +12,19 @@ class AdminiBaseController extends Controller{
     public function GetMenu(){
         
         $ControllerID = $this->getId();
-        
+
         $this->menubar = array(
             'site'=>array(
                 'subject' => '사이트 관리',
+                'submenu' => array(
+                    array(),
+                    array(),
+                    array(),
+                    array(),
+                )
+            ),
+            'menu'=>array(
+                'subject' => '메뉴 관리',
                 'submenu' => array(
                     array(),
                     array(),
