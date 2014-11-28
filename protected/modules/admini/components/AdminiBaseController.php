@@ -27,12 +27,12 @@ class AdminiBaseController extends Controller{
                 'subject' => '회원관리',
                 'submenu' => array(
                     array('title'=>'회원목록','url'=>  createUrl('admini/member/index')),
-                    array('title'=>'포인트설정','url'=>''),
-                    array('title'=>'메일설정','url'=>''),
-                    array('title'=>'가입설정','url'=>''),
-                    array('title'=>'접속통계','url'=>''),
-                    array('title'=>'블랙목록','url'=>''),
-                    array('title'=>'탈퇴목록','url'=>''),
+                    array('title'=>'포인트설정','url'=>createUrl('admini/member/point')),
+                    array('title'=>'메일설정','url'=>createUrl('admini/member/mail')),
+                    array('title'=>'가입설정','url'=>createUrl('admini/member/form')),
+                    array('title'=>'접속통계','url'=>createUrl('admini/member/poll')),
+                    array('title'=>'블랙목록','url'=>createUrl('admini/member/blacklist')),
+                    array('title'=>'탈퇴목록','url'=>createUrl('admini/member/outlist')),
                 )
             ),
             'bbs'=>array(
