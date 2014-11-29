@@ -1,10 +1,11 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * 这里的函数 基本上都是 全站统一频繁使用的
+ * 或许 有些 模块上 还会使用。
+ * 여기에 있는 함수들은 자주 전체 사이트 내부에서 자주 사용되며
+ * 개별 모듈에서도 사용 가능할 수 있습니다. 
  */
+
 
 /**
  * Yii APP对象
@@ -14,12 +15,18 @@ function app(){
     return Yii::app();
 }
 
-
+/**
+ * 绝对路径
+ * @return type
+ */
 function baseUrl(){
     return app()->baseUrl;
 }
 
-
+/**
+ * 主题绝对路径
+ * @return type
+ */
 function theme_baseUrl(){
     return app()->theme->baseUrl;
 }
@@ -101,6 +108,7 @@ function registerScript( $path , $option = CClientScript::POS_HEAD ){
     return app()->clientScript->registerScriptFile( $path , $option );
 }
 
+
 /**
  * 加载CSS
  * @param type $path
@@ -109,3 +117,4 @@ function registerScript( $path , $option = CClientScript::POS_HEAD ){
 function registerCss( $path ){
     return app()->clientScript->registerCssFile( $path );
 }
+
