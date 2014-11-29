@@ -34,7 +34,13 @@ return array(
 
 	// application components
 	'components'=>array(
-
+                
+                //Thumbnail extensions
+                'thumb' => array(
+                    'class' => 'ext.ZebraThumb.Zebra_Image'
+                ),
+            
+            
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -65,6 +71,7 @@ return array(
 				'ueditor'=>array(
 				    'class'=>'ext.baiduUeditor.UeditorController',
 				),
+                                
 			),
 
 		'log'=>array(

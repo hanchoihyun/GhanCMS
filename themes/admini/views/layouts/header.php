@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <title></title>
 <?php
-Yii::app()->clientScript->registerCssFile( Yii::app()->theme->baseUrl.'/static/css/reset.css' );
-Yii::app()->clientScript->registerCssFile( Yii::app()->theme->baseUrl.'/static/css/common.css' );
+registerCss(theme_baseUrl().'/static/css/reset.css' );
+registerCss(theme_baseUrl().'/static/css/common.css' );
 ?>
 
 <?php
-Yii::app()->clientScript->registerScriptFile( Yii::app()->baseUrl.'/static/js/jquery-1.11.1.min.js' , CClientScript::POS_END );
-Yii::app()->clientScript->registerScriptFile( Yii::app()->baseUrl.'/static/js/jquery-migrate-1.2.1.min.js' , CClientScript::POS_END );
-Yii::app()->clientScript->registerScriptFile( Yii::app()->theme->baseUrl.'/static/js/menubar.js' , CClientScript::POS_END );
+registerScript( baseUrl().'/static/js/jquery-1.11.1.min.js' , CClientScript::POS_END );
+registerScript( baseUrl().'/static/js/jquery-migrate-1.2.1.min.js' , CClientScript::POS_END );
+registerScript( theme_baseUrl().'/static/js/menubar.js' , CClientScript::POS_END );
 ?>
 </head>
 <body>

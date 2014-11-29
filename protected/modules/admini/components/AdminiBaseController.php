@@ -9,7 +9,9 @@ class AdminiBaseController extends Controller{
      */
     public $menubar = array();
     
-    public function GetMenu(){
+    public $module_id ;
+    
+    public function setMenu(){
         
         $ControllerID = $this->getId();
 
@@ -85,9 +87,19 @@ class AdminiBaseController extends Controller{
         $this->menubar[$ControllerID]['active'] = true;
     }
     
+    
+    public function setModule_id(){
+        $this->module_id = $this->getModule()->id;
+    }
+    
+    public function getModule_id(){
+        return $this->module_id;
+    }
+    
     function beforeAction($action) {
         parent::beforeAction($action);
-        $this->GetMenu();
+        $this->setMenu();
+        $this->setModule_id();
         return true;
     }
     
