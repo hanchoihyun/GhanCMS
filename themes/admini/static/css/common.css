@@ -22,9 +22,17 @@
 /* 右侧导航 */
 #Warp #Container .Righter .Navi{ height:50px;margin-bottom:10px;border-bottom: 1px solid #e02222;}
 #Warp #Container .Righter .Navi ul li{float:left;height:50px;line-height:50px;}
-#Warp #Container .Righter .Navi ul li:before{width:10px;content:'>';float:left;color:#666;line-height:54px;height:50px;font-size:14px;}
-#Warp #Container .Righter .Navi ul li a{color:#666;font-size:14px;display:inline-block;padding:0px 5px;}
+#Warp #Container .Righter .Navi ul li:before{width:10px;content:'>';float:left;color:#b2b6bf;line-height:54px;height:50px;font-size:14px;}
+#Warp #Container .Righter .Navi ul li a{color:#4c8fbd;font-size:14px;display:inline-block;padding:0px 5px;}
 
 .table-default-title{font-weight:bold;color:#333;font-size:16px;text-align:left;height:20px;line-height:20px;margin-bottom:10px;}
 .table-default-list{border-collapse: collapse;border:none;width:100%;}
 .table-default-list th{background:#f8f8f8;color:#333;font-size:12px;font-weight:normal;height:30px;text-align:left;padding-left:10px;border-top:1px solid #333;border-bottom:1px solid #333;}
+
+
+
+
+
+
+
+#footer{height:50px;text-align:center;position:fixed;bottom:0px;width:100%;background:#333;line-height:50px;font-size:12px;color:#fff;}
