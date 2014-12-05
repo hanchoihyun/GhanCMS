@@ -2,7 +2,8 @@
 $this->beginContent('//layouts/header');
 $this->endContent();
 ?>
-<div class="Righter">
+
+    
 <?php
 echo $content;
 ?>

@@ -38,3 +38,22 @@ registerScript( theme_baseUrl().'/static/js/menubar.js' , CClientScript::POS_END
                     <?php } ?>
                 </dl>
             </div>
+            
+            <!-- Righter Start -->
+            <div class="Righter">
+                <div class="Navi">
+                    <ul>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">首页</a></li>
+                    </ul>
+                </div>
+                
+                
+                
+                
+                
+                
+            
