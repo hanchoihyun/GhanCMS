@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-12-6, 13:20:36
+    Author     : 韩
+*/
+
+#Warp{width:100%;}
+
+#Warp #Header{width:100%;height:30px;background:rgb(48,41,48);min-width:1000px;}
+#Warp #Header dl{}
+#Warp #Header dl dt{float:left;height:30px;line-height:30px;color:#FFF;text-align:center;width:200px;}
+#Warp #Header dl dd{float:left;height:30px;line-height:30px;background:rgb(112,105,113);border-right:1px solid #000;}
+#Warp #Header dl dd a{padding:0px 10px;display:block;height:30px;text-align:center;color:#fff;font-size:12px;font-weight:bold;}
