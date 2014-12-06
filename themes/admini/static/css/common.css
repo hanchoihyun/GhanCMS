@@ -10,8 +10,18 @@ and open the template in the editor.
 
 #Warp{width:100%;}
 
-#Warp #Header{width:100%;height:30px;background:rgb(48,41,48);min-width:1000px;}
-#Warp #Header dl{}
-#Warp #Header dl dt{float:left;height:30px;line-height:30px;color:#FFF;text-align:center;width:200px;}
-#Warp #Header dl dd{float:left;height:30px;line-height:30px;background:rgb(112,105,113);border-right:1px solid #000;}
-#Warp #Header dl dd a{padding:0px 10px;display:block;height:30px;text-align:center;color:#fff;font-size:12px;font-weight:bold;}
+#Header{width:100%;height:30px;background:#000;min-width:1000px;}
+#Header dl{}
+#Header dl dt{float:left;height:30px;line-height:30px;color:#FFF;text-align:center;width:200px;font-size:18px;border-right:1px solid #000;}
+#Header dl dd{float:left;height:30px;line-height:30px;background:rgb(112,105,113);border-right:1px solid #000;}
+#Header dl dd a{padding:0px 10px;display:block;height:30px;text-align:center;color:#fff;font-size:12px;font-weight:bold;}
+
+#Container{min-width:1000px;}
+#Container #Lefter{width:200px;float:left;background:#dcdcdc;border-right:1px solid #333;position:fixed;left:0px;height:100%;}
+#Container #Lefter h2{text-align:center;font-weight:bold;font-size:16px;height:70px;line-height:70px;border-bottom:1px solid #333;}
+#Container #Lefter ul{}
+#Container #Lefter ul li{height:30px;line-height:30px;border-bottom:1px solid #333;}
+#Container #Lefter ul li a{text-align:left;height:30px;display:block;padding-left:10px;font-size:12px;color:#333;}
+
+
+#Footer{position:fixed;bottom:0px;width:100%;height:30px;text-align:center;color:#fff;line-height:30px;background:#000;min-width:1000px;}
